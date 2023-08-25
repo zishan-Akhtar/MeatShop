@@ -1,0 +1,102 @@
+.Buy{
+    
+    span{
+        
+        color: bisque;
+    }
+    &__pic{
+        position: absolute;
+        left: 80px;
+
+        img{
+            width: 70%;
+            height: 70%;
+            border: 2px solid red;
+            border-radius: 10px;
+            margin-top: 70px;
+        }
+    }
+    &__title{
+        position:relative;
+        left: 200px;
+        top: 80px;
+        h1{
+          font-size: 25px;  
+        }
+    }
+    &__dummy{
+        position:relative;
+        left: 280px; 
+        top: 60px;
+        text-decoration:dotted;
+    }
+    &__stars{
+        position:relative;
+        left: 130px; 
+        top: 70px;
+        color: #C20D1E; 
+        span{
+            color: #000;
+            
+        } 
+    }
+    &__price{
+        position: relative;
+        left: 170px;
+        top: 50px;
+        justify-content: space-between;
+        
+        h1{
+
+            font-size: 25px;
+            margin-right: 40px;
+        }
+        span{
+            color: #C20D1E;
+            
+    
+        }
+    }
+    &__btn{
+        position: relative;
+        left: 200px;
+        top: 70px;
+       
+        button{
+            font-size: 15px;
+        width: 150px;
+        height: 35px;
+        color: aliceblue;
+        background-color: 
+        #C20D1E;
+        border: none;
+       font-weight:500;
+       
+       border-radius: 20px;
+           
+        }
+        span button{
+            font-size: 15px;
+            width: 150px;
+            height: 35px;
+            color: rgb(1, 8, 15);
+            background-color: 
+            #fff;
+            border: 2px solid red;
+           font-weight:500;
+           
+           border-radius: 20px;
+        }
+    }
+    &__map{
+        width: 100%;
+        display: flex;
+        position: relative;
+        left: 750px;
+        
+p{
+    font-size: 15px;
+}
+        
+    }
+}

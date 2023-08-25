@@ -1,0 +1,115 @@
+@import "/src/Utils/style/variables";
+@import "/src/Utils/style/mediaQuery";
+@mixin header-icon(){
+  margin-left: 10px;
+}
+@mixin button(){
+  width: 115px;
+  height: 30px;
+  font-weight: bold;
+  text-align: left;
+  border: none;
+}
+.Header{
+    background-color:$blackcolor ;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    z-index: 100;
+    &__logo{
+        
+        height: auto;
+        width: fit-content;
+        margin-left: 20px;
+      
+       
+      img{
+    text-align: left;
+  
+        width: 130px;
+        @include for-size(phone-only){
+         object-fit: cover;
+           } 
+           @include for-size(phone2-only){
+            width: 90px
+           }
+
+
+        
+      }  
+    }
+  
+    &__icons{
+      color: $whitecolor;
+  flex: 1;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+ 
+p{
+  font-size: 25px;
+  margin: 0px;
+  width: 10vw;
+
+}
+
+    
+      span{
+        
+        margin-right: 1rem;
+        padding-right: 3rem;
+        font-size: 2rem;
+      
+        &:not(:nth-last-child(1)){
+          border-right: 2px solid #fff;
+        }
+      }
+        @include for-size(phone-only){
+          display: none;
+           }  
+         
+    }
+    &__mobileMenu {
+      display: none;
+      @include for-size(phone-only) {
+        font-size: 4rem;
+        color: white;
+        display: block;
+      }
+    }
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+ 
+   
+      
+   

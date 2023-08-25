@@ -1,0 +1,108 @@
+@import "../../Utils/style/mediaQuery";
+.Meat{
+ 
+
+    &__picture{
+     
+    
+        img{
+            width: 100%;
+            height: 100%;
+         
+     
+            
+        }
+    }
+
+    &__shadow{
+        
+        img{
+            position: absolute;
+            
+width: 100%;
+            left: 0px;
+            right: 20px;
+    
+    
+        }
+    }
+    &__title{
+        h1{
+            position: absolute;
+            top: 130px;
+            left: 660px;
+    
+        
+            font-size: 3vw;
+            color: aliceblue;
+            // font-weight: 600;
+        
+        
+            // @include for-size(phone-only){
+            //     // font-size: 30px;
+            // //   position: absolute;
+            // //   left: 320px;
+
+            // color: #8E000E;
+        
+            
+            //      } 
+            //      @include for-size (phone2-only){
+            //         // position: absolute;
+            //         // left: 645px;
+            //         color: #69f40d;
+            //      }
+            //      @include for-size (large-desktop){
+            //     // display: none;
+            //     color: #0dcdf4;
+            //      }
+            //      @include for-size(large-desktop1){
+            //         color: #f5116c;
+            //         // position: absolute;
+            //         // left: 350px;
+            //      }
+
+            //      @include for-size(large-desktop2){
+            //         color: khaki;
+            //      }
+            //     @include for-size (only-Laptop){
+            //         color: #69f40d;
+            //         // font-size: 25px;
+            //         // position: absolute;
+            //         // left: 380px;
+            //     } 
+               
+        }
+        p{
+            position: absolute;
+            top: 210px;
+            left: 360px;
+            align-items: center;
+            font-size: 21px;
+            color: aliceblue;
+            font-weight: 300;
+            @include for-size(large-desktop){
+                font-size: 20px;
+              position: absolute;
+              left: 80px;
+        
+            
+                 } 
+                 @include for-size (very large-desktop){
+                    display: none;
+                     }
+                     @include for-size(large-desktop1){
+                      font-size: 15px;
+                     }
+                     @include for-size (only-Laptop){
+                    
+                        font-size: 10px;
+                        position: absolute;
+                        left: 230px;
+                top: 170px;
+                    } 
+        }
+    
+    }
+ 
+}

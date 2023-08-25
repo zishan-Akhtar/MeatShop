@@ -1,0 +1,51 @@
+@import "../../Utils/style/mediaQuery";
+.Categories{
+    width: 100%;
+    display: flex;
+    background: rgba(242, 223, 210, 0.56);;
+    justify-content: center;
+    
+    gap: 1rem;
+    @include for-size (phone-only){
+        width: 1390px;
+    }
+ 
+    &__box{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        @include for-size (large-desktop2){
+            width: 100%;
+            padding: 0%;
+        }
+    }
+    &__icons{
+        width: 100px;
+        height: 100px;
+        padding: 0.5rem;
+        margin-right: 1rem;
+        @include for-size (phone-only){
+            padding: 0%;
+        }
+        
+        img{
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        p{
+            font-size: 1rem;
+            font-weight: 500;
+           
+        }
+    }
+    .heading{
+        font-size: 1.2rem;
+    margin:15px  10px; 
+        font-weight: 400;
+        
+    }
+}

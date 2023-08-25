@@ -1,0 +1,93 @@
+@import "../../Utils/style/mediaQuery";
+.HomePage{
+   overflow-x: hidden;
+   overflow-y: hidden;
+   &__meatShop{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 800;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+
+    &__best{
+        @include for-size (phone-only){
+            text-align: center;
+            margin-left:50px;
+        }
+        h1{
+            color: #C20D1E;
+            font-size: 30px;
+            margin-top: 40px;
+            font-weight: 800;
+            @include for-size (phone-only){
+                text-align: center;
+                
+            }
+        }
+    }
+    &__legpeice {
+
+     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    @include for-size (phone-only){
+       display: none;
+    }
+
+    }
+    // &__legpeice::after{
+    //     content: "";
+    //          height: 1px;
+    //          background: #C20D1E;
+    //          display: block;
+
+    // }
+    // &__legpeice::before{
+    //     content: "";
+    //          height: 1px;
+    //          background: #C20D1E;
+    //          display: block;
+
+    // }
+
+    &__legpeice{
+        position: absolute;
+        left: 720px;
+ top: 1800px;
+      
+        img{
+            width: 20px;
+            
+        }
+    }
+
+    &__btn{
+        position: relative;
+        top: 17px;
+        left: 17px;
+    }
+    &__btnn{
+        position: relative;
+        top: 41px;
+        left: 10px;
+    }
+    
+    &__title{
+        position: relative;
+        position: absolute;
+        top: 2790px;
+        left: 700px;
+        color: #C20D1E;
+        font-size: 20px;
+      
+    }
+  &__title2{
+    position: relative;
+    
+  }
+
+
+}

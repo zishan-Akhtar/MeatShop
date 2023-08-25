@@ -1,0 +1,32 @@
+.List{
+    position: relative;
+    &__categories{
+        img{
+            width: 7%;
+            
+        position: absolute;
+        left: 150px;
+        border: 2px solid red;
+        border-radius: 20px;
+        
+        }
+    }
+    h2{
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+    p{
+    
+        position: absolute;
+        left: 380px;
+        top: 20px;
+        font-size: 25px;
+    }
+}
+.delete{
+    position: absolute;
+left: 90px;
+top: 40px;
+
+}

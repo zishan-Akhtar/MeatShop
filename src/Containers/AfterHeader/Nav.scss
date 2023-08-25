@@ -1,0 +1,163 @@
+@import "/src/Utils/style/variables";
+@import "/src/Utils/style/mediaQuery";
+@mixin header-icon(){
+  margin-left: 10px;
+}
+@mixin button(){
+  width: 115px;
+  height: 30px;
+  font-weight: bold;
+  text-align: left;
+  border: none;
+}
+.Nav{
+    background-color:$blackcolor ;
+    height: 180px;
+
+    @include for-size(phone-only){
+      width: 1270px;
+        
+       } 
+     
+    
+    &__logo{
+        text-align: left;
+      
+       
+      img{
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 150px;
+        @include for-size(phone-only){
+          width: 150px;
+          margin-top: 20px;
+            
+           } 
+           
+       
+      }
+      h1{
+        font-size: 25px;
+          
+        font-weight: 500;
+        color: $whitecolor;
+        margin-top: -80px;
+        text-align: right;
+        margin-right: 320px;
+        @include for-size(phone-only){
+          margin-right: 260px;
+      font-size: 30px;
+           } 
+           
+        span{
+          margin-left: 70px;
+          font-size: 25px;
+          
+          font-weight: 500;
+          color: $whitecolor;
+          @include for-size (phone-only){
+            font-size: 30px;
+          }
+        }
+      }
+   
+       
+    }
+    &__icons{
+      color: $whitecolor;
+      text-align: right;
+      margin-right: 230px;
+      margin-top: -50px;
+      @include for-size(phone-only){
+        margin-right: 150px;
+        
+          
+         } 
+    
+      span{
+        
+        margin-right: 10px;
+        @include for-size(phone-only){
+          margin-left: 30px;
+            
+           } 
+        
+      }
+      span{
+        @include header-icon();
+        
+      }
+     
+     
+      
+      
+    }
+    &__icon2{
+      color: $whitecolor;
+      text-align: right;
+      margin-right: 120px;
+      margin-top: -45px;
+      @include for-size(phone-only){
+        margin-right: 90px;
+        
+          
+         } 
+      span{
+        
+        @include header-icon();
+      }
+    }
+    &__icon3{
+      color: $whitecolor;
+      text-align: right;
+      margin-right: 180px;
+      margin-top: -45px;
+      @include for-size(phone-only){
+        margin-right: 20px;
+        
+          
+         } 
+      span{
+        
+        @include header-icon();
+      }
+    }
+  
+   &__btn{
+    margin-left: 930px;
+    @include for-size(phone-only){
+      margin-left: 858px;
+
+      font-weight: bold;
+      
+        
+       } 
+    button{
+      @include button();
+      background: $pinkcolor;
+      
+   
+    }
+   }
+   &__btn2{
+    margin-left: 930px;
+    @include for-size(phone-only){
+      margin-left: 858px;
+      font-weight: bold;
+      
+        
+       } 
+    button{
+    
+    background: $whitecolor;
+      
+      @include button();
+     
+    }
+   }
+ 
+   
+        
+    
+   
+}

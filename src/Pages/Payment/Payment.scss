@@ -1,0 +1,54 @@
+.Payment{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    &__shipping{
+        h2{
+            font-size: 35px;
+            text-align: left;
+        }
+    }
+    &__card{
+        text-align: left
+    }
+    &__det{
+        text-align: left;
+        h2{
+            font-size: 35px;
+            text-align: left;
+        }
+        input{
+            border: none;
+            text-decoration: underline;
+            font-size: 20px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+    &__btn{
+        text-align: left;
+        button{
+            width: 150px;
+            border: 2px solid #000;
+            font-size: 20px;
+            font-weight: 800;
+  
+        }
+        span button{
+            background-color: #C42731;
+            color: #fff;
+            border: none;
+            
+                        }
+    }
+    &__pic{
+        img{
+            position: relative;
+            left: 180px;
+            bottom: 450px;
+            width: 25%;
+    
+        }
+   
+    }
+}

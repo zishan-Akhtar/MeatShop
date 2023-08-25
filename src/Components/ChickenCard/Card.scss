@@ -1,0 +1,61 @@
+.Card{
+    text-align: left;
+    
+    &__ImageBox{
+        background-color: #F8EDE6;
+        width: 270px;
+        height: 210px;
+        img{
+          width: 70%;
+          margin-top: 10px;
+    margin-left: 30px;
+          
+        }
+    }
+    &__content{
+        h1{
+            color: #FF1E1E;
+            font-size: 20px;
+            span{
+                color: black;
+                margin-left: 78px;
+            }
+        }
+    }
+    &__stars{
+        color: #FF651B;
+        font-size: 1.5rem;
+    }
+    &__paragraph{
+        p{
+            font-size: 15px;
+            font-weight: 400;
+        }
+    }
+    &__price{
+        h2{
+        font-size: 20px;
+            color: #FF1E1E;
+        }
+        span{
+            color: 
+            #8D8A8A;
+            margin-left: 10px;
+            text-decoration: line-through;
+        }
+
+    }
+    &__btn{
+        margin-top: -39px;
+        margin-left: 150px;
+        button{
+            width: 120px;
+            height: 30px;
+            border: 2px solid #C20D1E;
+            background: #fff;
+            border-radius: 20px;
+            color: #C20D1E;
+            font-weight: 700;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@import "../../Utils/style/mediaQuery";
+.Recipie{
+    height: 450px;
+    display: flex;
+    gap: 2rem;
+    margin-right: 150px;
+    justify-content: center;
+    margin-top: 80px;  
+     
+&__card{
+    margin-top: 10px;
+ margin-left: 120px;
+ margin: auto;
+ @include for-size (large-desktop2){
+ margin: auto;
+    margin-left: 2rem;
+}
+ 
+
+}
+
+}

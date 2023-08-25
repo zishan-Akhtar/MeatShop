@@ -1,0 +1,40 @@
+.Review{
+    h3{
+    font-size: 20px;
+    margin-left: 50px;
+    }
+    h2{
+      color: #C20D1E;
+      font-size: 40px;
+      font-weight: 800;
+      margin-top: 20px;
+      margin-left: 50px;
+    }
+ background-color: 
+ #F8EDE6; 
+
+ p{
+   font-weight: 400;
+ }
+ p::after{
+   content: "";
+   display: block;
+   height: 3px;
+   margin-top: 10px;
+   background-color: #000;
+ }
+ &__ImagesCircle{
+    img{
+        margin-top: 90px;
+        margin-left: 40px;
+    }
+ }
+ &__icon{
+    color: 
+    #C20D1E;
+    margin-top: 20px;
+    margin-left: 40px;
+   
+ }
+ 
+}

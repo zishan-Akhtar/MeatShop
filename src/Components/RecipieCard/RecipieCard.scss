@@ -1,0 +1,44 @@
+@import "../../Utils/style/mediaQuery";
+.RecipieCard{
+    text-align: left;
+    margin-right: -35px;
+    padding: 0px;
+    &__ImagesBox{
+        
+        img{
+            width: 250px;
+            height: 250px;
+        }
+    }
+    &__heading{
+        background-color: #fff;
+        height: 140px;
+        margin-top: -20px;
+        h1{
+            font-size: 15px;
+            color: #FF1E1E;
+            margin-top: 15px;
+            span{
+                color: #FF1E1E;
+                margin-left: 60px;
+                font-size: 15px
+            }
+        }
+        p{
+            font-size: 12px;
+        }
+    }
+    &__rating{
+        background: #FF1E1E;
+        width: 70px;
+        margin-top: -30px;
+        
+    }
+}
+.icon{
+    color: #fff;
+}
+span{
+    color: #fff;
+    margin-left: 10px;
+}
