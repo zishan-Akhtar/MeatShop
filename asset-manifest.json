@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/zishan-Akhtar.github.io/MeatShop.git/static/css/main.c53d3452.css",
+    "main.js": "/zishan-Akhtar.github.io/MeatShop.git/static/js/main.3633851e.js",
+    "index.html": "/zishan-Akhtar.github.io/MeatShop.git/index.html",
+    "main.c53d3452.css.map": "/zishan-Akhtar.github.io/MeatShop.git/static/css/main.c53d3452.css.map",
+    "main.3633851e.js.map": "/zishan-Akhtar.github.io/MeatShop.git/static/js/main.3633851e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c53d3452.css",
+    "static/js/main.3633851e.js"
+  ]
+}
